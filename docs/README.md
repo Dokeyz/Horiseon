@@ -1,4 +1,4 @@
-# Code Refactor Starter Code
+# Horiseon
 
 Jump into optimization of search engines, management of online reputation, and marketing in social media by using Horiseon!
 
