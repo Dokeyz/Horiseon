@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Home - Horiseon</title>
+    <title>Home - Horiseon</title> <!--added a descriptive title with a home location incase future html documents or pages are added later-->
 </head>
+
+<!--for all semantic elements below, the spacing was increased for better readability-->
 
 <body>
     <!--header-->
+
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!--updated div to nav so that the header links go to the appropriate sections-->
+        <!--updated div to nav so that the header links snap to the appropriate sections of the article element-->
         <nav>
             <ul>
                 <li>
@@ -26,39 +29,52 @@
             </ul>
         </nav>
     </header>
+
     <!--changed div to section for the hero section-->
     <section class="hero"></section>
+
     <!--changed div to article for the main part of the page-->
     <article class="content">
+
         <!--added id below so "search engine optimization" is linked to its corresponding nav element in the header-->
-        <div id="search-engine-optimization" class="search-engine-optimization">
+        <div id="search-engine-optimization" class="article"> <!--as with the style sheet, the classes for this section were condensed into a single "article" class-->
+
             <!--added appropriate alt attributes of the images below-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Pens, a laptop, coffee, and notebook lay on top of a table. The notebook has 'SEO' labeled on it." class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
+
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+
+        <div id="online-reputation-management" class="article"> <!--changed class to article-->
+
             <img src="./assets/images/online-reputation-management.jpg" alt="A laptop with a chart on its screen shows reputation increasing over time" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
+
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+
+        <div id="social-media-marketing" class="article"> <!--changed class to article-->
+
             <img src="./assets/images/social-media-marketing.jpg" alt= "A marketing team gathers at a table discussing buzzwords such as 'share, like, tweet, and media'." class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
+
         </div>
+
     </article>
-    <!--changed div to aside for the side bar-->
-    <aside class="benefits">
-        <div class="benefit">
+    
+    <!--changed div to aside for the benefits side bar-->
+    <aside class="benefits benefit"> <!--removed div sub element and gave the aside both the benefits and benefit classes-->
+        <!--<div class="benefit">-->
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt=""/> <!--the images for the side bar are decorative and do not need descriptions for their lack of meaning-->
+            <img src="./assets/images/lead-generation.png" alt=""/> <!--the images for the side bar are decorative and do not need alt descriptions-->
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
@@ -76,12 +92,12 @@
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
+        
     </aside>
-    <footer>
+    <footer> <!--changed div element to footer for proper semantic layout-->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+            &copy; 2022 Horiseon Social Solution Services, Inc. <!--changed date to current-->
         </p>
     </footer>
 </body>
